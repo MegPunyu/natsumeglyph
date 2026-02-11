@@ -238,6 +238,16 @@ The [`examples/`](examples/) directory contains sample scripts demonstrating dat
 ![Random tiling example](examples/python/tiled_output.png)  
 *Output PNG.*
 
+### Filtered Tiling
+
+[`examples/python/tile_filtered_paths.py`](examples/python/tile_filtered_paths.py) — Filter paths by directory-encoded features and tile a 5×5 grid for each filter set.
+
+![Filtered tiling example 1](examples/python/tiled_filtered_output_1.png)  
+*Output PNG (filter set 1).*
+
+![Filtered tiling example 2](examples/python/tiled_filtered_output_2.png)  
+*Output PNG (filter set 2).*
+
 ## License
 
 Licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
