@@ -248,6 +248,13 @@ The [`examples/`](examples/) directory contains sample scripts demonstrating dat
 ![Filtered tiling example 2](examples/python/tiled_filtered_output_2.png)  
 *Output PNG (filter set 2).*
 
+### Closed Loop Construction
+
+[`examples/python/tile_closed_loops.py`](examples/python/tile_closed_loops.py) — Extracts closed-loop candidates (`manhattan=1`), removes D4-equivalent duplicates, and optimizes loop orientation by minimizing each loop’s lexicographic similarity profile against the rest. The selected loops are then rendered as filled closed shapes.
+
+![Closed loop tiling example](examples/python/tiled_closed_loops.png)  
+*Output PNG (closed-loop tiling).*
+
 ## License
 
 Licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
